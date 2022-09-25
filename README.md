@@ -6,9 +6,8 @@ This is a portfolio landing page.
 Set Up Instruction and Installation
 Access to a computer
 Internet
-website link
 Link
-Here is the link to the website: 
+Here is the link to the website:  https://patwer.github.io/Week-1-individual-project/
 
 Technology Used
 HTML -To build the page contents.

@@ -22,7 +22,7 @@ section {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 ul {
@@ -75,17 +75,11 @@ footer {
     justify-content: space-between;
 }
 
-.h3 {
-    padding: 0 2em;
-}
 
 #other li {
     margin: 24px 0px;
 }
 
-.store-button p {
-    margin: 0px;
-}
 
 .footer-text {
     text-align: center;

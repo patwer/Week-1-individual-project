@@ -3,7 +3,8 @@ body {
 }
 
 div {
-    width: fit-content height: inherit;
+    width: fit-content;
+     height: inherit;
 }
 
 p {

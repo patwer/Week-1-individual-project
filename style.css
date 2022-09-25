@@ -4,39 +4,25 @@ body {
 
 div {
     width: fit-content height: inherit;
-    /* border: 1px solid green; */
-    /* padding: 50px;
-    margin: 20px; */
 }
 
 p {
     font: oblique;
-
 }
 
 section {
-    /* width: 50%; */
-    /* border: 1px solid green; */
     box-sizing: border-box;
     padding: 50px;
 
-}
 
 
-/* @media (min-width:768px){
-      .parent{
-          display:flex;
-      } */
-/* } */
 
 .navbar {
     background-color: black;
     color: white;
-    /* padding: 0 2em 0.7em 2em; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 ul {
@@ -71,7 +57,6 @@ a {
 
 .nav-links {
     display: inline;
-
 }
 
 footer {
@@ -92,7 +77,6 @@ footer {
 
 .h3 {
     padding: 0 2em;
-
 }
 
 #other li {

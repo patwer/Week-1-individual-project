@@ -4,51 +4,90 @@
 <head>
     <title>Week 1-2</title>
     <link href="style.css" rel="stylesheet">
+   
 </head>
-
-<style>
-    h1 {
-        color: brown;
-        font-family: 'Courier New', Courier, monospace;
-    }
-
-    body {
-        /* background-image:url(); */
-    }
-</style>
-
 <body>
-
-    <!-- Header -->
-    <h1 style="color:blue;">Patrick Weru Wachira</h1>
-    
-    <!-- Image -->
-    <img src="Patrick Photo.JPG" width="100" height="100">
-     <!-- Header -->
-     <h1 style="color:blue;">About me</h1>
-     <!-- Paragraph -->
-     <p style="color:red;">
-        <h2 style="color:blue;">Background</h2>
-        <p>My story</p>
-        <h2 style="color:blue;">Interests</h2>
-        <p>interestsy</p>
-    </p>
-    <!-- List of things -->
-
-    <h1 style="font-size: 50px;">My projects</h1>
-
-    <ol>
-        <li>Emerg</li>
-        <li>Dawa</li>
+    <div class="navbar">
+                  
+        <div class="nav-links">
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Background">Background</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
         
-    </ol>
+    </div>
+<section class="parent">
+    <style>
+        
+         @media (min-width:768px){
+      .parent{
+          display:flex;
+          border: 3px dashed lightgray;
+      }
+    </style>
+    
+    <section class="child" width: 50%>
+<div>
+<!-- Image -->
+<img src="myPhotoV3.png" width="300" height="400">
+</div>
+<div>
+    <h2 style="color:black;">General Information</h2>
+    <ul>
+                            <li>Name: Patrick Wachira</li>
+                            <li>Mobile No: +254727775712</li>
+                            <li>Physical adress: Nairobi</li>
+                          
+                        </ul>
+</div>
+  </section>
+    <section class="child" width: 50%>
+        <!-- Header -->
+    
+     <!-- Paragraph -->
+     <p>
+        <h2 style="color:black;">Background</h2>
+        <p>I am a product development engineer, currently working under Revenue Management team. I've a background in Telecommunications and this course will help further support the business as the company transform into a digital first company. It will also help me better support the product evolution and development process.</p>
+       
+        
+        <h2 style="color:black;">Interests</h2>
+        <p>My interests have been for long in travelling and farming but I've since started to enjoy cycling.</p>
+    </p>
+    
+    
+    <h1 style="color:black;">Projects</h1>
 
-   
-    <!-- Links -->
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body">Documentation</a>
+    <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" style="color:blue; font-weight: 100;">Emerg - A mobile based service aimed at locating and alerting nearby emergency services</a></li>
+     
+        
+    </ul>
 
-   
+    
+    </section>
+</section>
+
+<div class="footer">
+        <footer>
+            
+                <div id="column1">
+                    <h2>Let's talk</h2>
+                 
+                    <div id="icons">
+                        <img id="twitter" class="icon" src="icons/twitter_logo.svg" alt="Twitter">
+                        <img id="facebook" class="icon" src="icons/facebook_logo.svg" alt="Facebook">
+                        <img id="instagram" class="icon" src="icons/instagram_logo.svg" alt="Instagram">
+                    </div>
+                   
+                </div>
+               
+            
+            
+        </footer>
+ </div>
 
 </body>
-
 </html>
